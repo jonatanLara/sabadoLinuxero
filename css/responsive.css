@@ -1,0 +1,29 @@
+@media screen and (min-width: 718px) {
+
+.posts .post
+{
+display: inline-block;
+/*para correrlo en uno solo*/
+width: 48%;
+}
+.posts .post:nth-child(odd)
+{
+margin-right: 1em;
+}
+
+header .titular .publicar a
+{
+position: relative;
+padding-left: 3em;
+}
+
+header .titular .publicar a:before
+{
+	font-size: 2.5em;
+	position: absolute;
+	left: 0;
+	top: -10px;
+}
+
+
+}
